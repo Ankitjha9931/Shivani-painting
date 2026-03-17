@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mithila Painting Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Mithila Painting Gallery</h1>
+<p>Traditional Art of Bihar</p>
+</header>
+
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="Search Painting..." onkeyup="searchPainting()">
+</div>
+
+
+
+<section class="gallery">
+
+<div class="painting">
+<img src="image/mithila1.jpeg" onclick="openImage(this.src)">
+<h3>SITA RAM</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>A traditional Mithila (Madhubani) painting of Radha and Krishna symbolizing divine love and devotion, created with intricate patterns and vibrant colors..</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila2.jpeg" onclick="openImage(this.src)">
+<h3>Goddess GANESH </h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p> A vibrant Madhubani painting of Goddess Durga symbolizing power, protection,
+and divine energy with intricate traditional Mithila patterns.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila3.jpeg" onclick="openImage(this.src)">
+<h3>FISH - DEVINE OF LOVE</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>A traditional Madhubani painting of Lord Ram and Goddess Sita symbolizing devotion, harmony, and divine love in classic Mithila art style..</p>
+</div> 
+
+<div class="painting">
+<img src="image/mithila4.jpeg" onclick="openImage(this.src)">
+<h3>GANPATTI</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+
+<div class="painting">
+<img src="image/mithila5.jpeg" onclick="openImage(this.src)">
+<h3>Nature Painting</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila6.jpeg" onclick="openImage(this.src)">
+<h3>FISH - MITHILA PAINTING</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila7.jpeg" onclick="openImage(this.src)">
+<h3>LOVING - FISH </h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila8.jpeg" onclick="openImage(this.src)">
+<h3>MITHILA NATURAL PAINTING</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila9.jpeg" onclick="openImage(this.src)">
+<h3>ELEPHENT WITH BIRD</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila10.jpeg" onclick="openImage(this.src)">
+<h3>MITHILA PANTING</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila11.jpeg" onclick="openImage(this.src)">
+<h3>PEOCOCK WITH FISH</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila12.jpeg" onclick="openImage(this.src)">
+<h3>MITHILA PAINTING</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+
+<div class="painting">
+<img src="image/mithila13.jpeg" onclick="openImage(this.src)">
+<h3>Nature PAINTING</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila14.jpeg" onclick="openImage(this.src)">
+<h3>SWEET BIRD </h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila15.jpeg" onclick="openImage(this.src)">
+<h3>KRISHNA WITH RADHA </h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+
+<div class="painting">
+<img src="image/mithila16.jpeg" onclick="openImage(this.src)">
+<h3>Nature Painting</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+
+<div class="painting">
+<img src="image/mithila17.jpeg" onclick="openImage(this.src)">
+<h3>Nature Painting</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila18.jpeg" onclick="openImage(this.src)">
+<h3>Nature Painting</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila19.jpeg" onclick="openImage(this.src)">
+<h3>Nature Painting</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+
+<div class="painting">
+<img src="image/mithila20.jpeg" onclick="openImage(this.src)">
+<h3>Nature Painting</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila21.jpeg" onclick="openImage(this.src)">
+<h3>Nature Painting</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila22.jpeg" onclick="openImage(this.src)">
+<h3>Nature Painting</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+
+<div class="painting">
+<img src="image/mithila23.jpeg" onclick="openImage(this.src)">
+<h3>Nature Painting</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+<div class="painting">
+<img src="image/mithila25.jpeg" onclick="openImage(this.src)">
+<h3>Nature Painting</h3>
+<h2> size "15"*"22"</h2>
+<p class="price">₹4,500</p>
+<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
+<p>Nature themed Madhubani artwork.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+<div id="imagePopup" onclick="closeImage()">
+<img id="popupImg">
+</div>
+
+<div id="orderForm" class="order-form">
+<h2>Order Details</h2>
+
+<input type="text" id="custName" placeholder="Your Name">
+<input type="text" id="custPhone" placeholder="Your Phone Number">
+<input type="text" id="custAddress" placeholder="Your Address">
+
+<input type="hidden" id="paintingName">
+<input type="hidden" id="paintingPrice">
+
+<button onclick="sendOrder()">Confirm Order</button>
+<button onclick="closeForm()">Cancel</button>
+</div>
+
+
+<footer>
+<p>© 2026 Mithila Painting Website</p>
+</footer>
+
+
+<script src="scrpt.js"></script>
+ 
+</body>
+</html>
