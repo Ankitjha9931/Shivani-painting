@@ -11,14 +11,23 @@
 
 <body>
 
-<header>
-<h1>Mithila Painting Gallery</h1>
-<p>Traditional Art of Bihar</p>
+<header class="navbar">
+
+    <div class="nav-left">
+        <h2 class="logo">🎨 Mithila Painting</h2>
+    </div>
+
+    <div class="nav-center">
+        <h1 class="main-title">Mithila Painting Gallery</h1>
+    </div>
+
+    <div class="nav-right">
+        <input type="text" id="searchInput" placeholder="Search paintings..."
+        onkeyup="searchPainting()">
+    </div>
+
 </header>
 
-<div class="search-box">
-<input type="text" id="searchInput" placeholder="Search Painting..." onkeyup="searchPainting()">
-</div>
 
 
 
@@ -26,240 +35,224 @@
 
 <div class="painting">
 <img src="image/mithila1.jpeg" onclick="openImage(this.src)">
-<h3>SITA RAM</h3>
-<h2> size "15"*"22"</h2>
+<h3>Sita Ram Divine Art</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>A traditional Mithila (Madhubani) painting of Radha and Krishna symbolizing divine love and devotion, created with intricate patterns and vibrant colors..</p>
+<button onclick="openForm('Sita Ram Divine Art','₹4500')">Buy Now</button>
+<p class="desc">Depicts Lord Ram and Sita symbolizing devotion, purity, and eternal love.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila2.jpeg" onclick="openImage(this.src)">
-<h3>Goddess GANESH </h3>
-<h2> size "15"*"22"</h2>
+<h3>Lord Ganesha Blessing</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p> A vibrant Madhubani painting of Goddess Durga symbolizing power, protection,
-and divine energy with intricate traditional Mithila patterns.</p>
+<button onclick="openForm('Lord Ganesha Blessing','₹4500')">Buy Now</button>
+<p class="desc">Symbol of wisdom, prosperity, and success in traditional Mithila style.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila3.jpeg" onclick="openImage(this.src)">
-<h3>FISH - DEVINE OF LOVE</h3>
-<h2> size "15"*"22"</h2>
+<h3>Fish Love Symbol</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>A traditional Madhubani painting of Lord Ram and Goddess Sita symbolizing devotion, harmony, and divine love in classic Mithila art style..</p>
-</div> 
+<button onclick="openForm('Fish Love Symbol','₹4500')">Buy Now</button>
+<p class="desc">Fish represent fertility, prosperity, and harmony in Madhubani art.</p>
+</div>
 
 <div class="painting">
 <img src="image/mithila4.jpeg" onclick="openImage(this.src)">
-<h3>GANPATTI</h3>
-<h2> size "15"*"22"</h2>
+<h3>Ganpati Art</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Ganpati Art','₹4500')">Buy Now</button>
+<p class="desc">Beautiful Ganpati artwork symbolizing positivity and new beginnings.</p>
 </div>
-
 
 <div class="painting">
 <img src="image/mithila5.jpeg" onclick="openImage(this.src)">
-<h3>Nature Painting</h3>
-<h2> size "15"*"22"</h2>
+<h3>Sacred Fish Mandala</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Sacred Fish Mandala','₹4500')">Buy Now</button>
+<p class="desc">Circular mandala with fish representing life cycle and abundance.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila6.jpeg" onclick="openImage(this.src)">
-<h3>FISH - MITHILA PAINTING</h3>
-<h2> size "15"*"22"</h2>
+<h3>Fish & Nature Harmony</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Fish & Nature Harmony','₹4500')">Buy Now</button>
+<p class="desc">Blends aquatic and natural elements showing balance of life.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila7.jpeg" onclick="openImage(this.src)">
-<h3>LOVING - FISH </h3>
-<h2> size "15"*"22"</h2>
+<h3>Tree of Life with Fish</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Tree of Life with Fish','₹4500')">Buy Now</button>
+<p class="desc">Symbol of growth, connection, and spiritual harmony.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila8.jpeg" onclick="openImage(this.src)">
-<h3>MITHILA NATURAL PAINTING</h3>
-<h2> size "15"*"22"</h2>
+<h3>Mystic Bird Art</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Mystic Bird Art','₹4500')">Buy Now</button>
+<p class="desc">Creative bird design representing freedom and expression.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila9.jpeg" onclick="openImage(this.src)">
-<h3>ELEPHENT WITH BIRD</h3>
-<h2> size "15"*"22"</h2>
+<h3>Royal Elephant Harmony</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Royal Elephant Harmony','₹4500')">Buy Now</button>
+<p class="desc">Elephant and bird showing strength, wisdom, and coexistence.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila10.jpeg" onclick="openImage(this.src)">
-<h3>MITHILA PANTING</h3>
-<h2> size "15"*"22"</h2>
+<h3>Radha Krishna Divine Love</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Radha Krishna Divine Love','₹4500')">Buy Now</button>
+<p class="desc">Depicts eternal love and devotion of Radha Krishna.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila11.jpeg" onclick="openImage(this.src)">
-<h3>PEOCOCK WITH FISH</h3>
-<h2> size "15"*"22"</h2>
+<h3>Peacock Prosperity</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Peacock Prosperity','₹4500')">Buy Now</button>
+<p class="desc">Symbol of beauty, grace, and auspiciousness.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila12.jpeg" onclick="openImage(this.src)">
-<h3>MITHILA PAINTING</h3>
-<h2> size "15"*"22"</h2>
+<h3>Cosmic Mandala</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Cosmic Mandala','₹4500')">Buy Now</button>
+<p class="desc">Represents balance, universe, and unity.</p>
 </div>
-
 
 <div class="painting">
 <img src="image/mithila13.jpeg" onclick="openImage(this.src)">
-<h3>Nature PAINTING</h3>
-<h2> size "15"*"22"</h2>
+<h3>Joyful Folk Bird</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Joyful Folk Bird','₹4500')">Buy Now</button>
+<p class="desc">Symbol of happiness and rural life simplicity.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila14.jpeg" onclick="openImage(this.src)">
-<h3>SWEET BIRD </h3>
-<h2> size "15"*"22"</h2>
+<h3>Mithila Cultural Life</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Mithila Cultural Life','₹4500')">Buy Now</button>
+<p class="desc">Shows traditions, rituals, and daily village life.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila15.jpeg" onclick="openImage(this.src)">
-<h3>KRISHNA WITH RADHA </h3>
-<h2> size "15"*"22"</h2>
+<h3>Krishna with Radha</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Krishna with Radha','₹4500')">Buy Now</button>
+<p class="desc">Romantic divine artwork of Radha Krishna.</p>
 </div>
 
+<!-- GENERIC NATURE SERIES -->
 
 <div class="painting">
 <img src="image/mithila16.jpeg" onclick="openImage(this.src)">
-<h3>Nature Painting</h3>
-<h2> size "15"*"22"</h2>
+<h3>Nature Art 1</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Nature Art 1','₹4500')">Buy Now</button>
+<p class="desc">Traditional nature-inspired Madhubani artwork.</p>
 </div>
-
 
 <div class="painting">
 <img src="image/mithila17.jpeg" onclick="openImage(this.src)">
-<h3>Nature Painting</h3>
-<h2> size "15"*"22"</h2>
+<h3>Nature Art 2</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Nature Art 2','₹4500')">Buy Now</button>
+<p class="desc">Nature-based creative traditional design.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila18.jpeg" onclick="openImage(this.src)">
-<h3>Nature Painting</h3>
-<h2> size "15"*"22"</h2>
+<h3>Nature Art 3</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Nature Art 3','₹4500')">Buy Now</button>
+<p class="desc">Colorful nature composition in Mithila style.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila19.jpeg" onclick="openImage(this.src)">
-<h3>Nature Painting</h3>
-<h2> size "15"*"22"</h2>
+<h3>Nature Art 4</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Nature Art 4','₹4500')">Buy Now</button>
+<p class="desc">Inspired by rural natural surroundings.</p>
 </div>
-
 
 <div class="painting">
 <img src="image/mithila20.jpeg" onclick="openImage(this.src)">
-<h3>Nature Painting</h3>
-<h2> size "15"*"22"</h2>
+<h3>Nature Art 5</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Nature Art 5','₹4500')">Buy Now</button>
+<p class="desc">Beautiful traditional nature theme artwork.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila21.jpeg" onclick="openImage(this.src)">
-<h3>Nature Painting</h3>
-<h2> size "15"*"22"</h2>
+<h3>Nature Art 6</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Nature Art 6','₹4500')">Buy Now</button>
+<p class="desc">Represents harmony between humans and nature.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila22.jpeg" onclick="openImage(this.src)">
-<h3>Nature Painting</h3>
-<h2> size "15"*"22"</h2>
+<h3>Nature Art 7</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Nature Art 7','₹4500')">Buy Now</button>
+<p class="desc">Traditional patterns showing natural beauty.</p>
 </div>
-
 
 <div class="painting">
 <img src="image/mithila23.jpeg" onclick="openImage(this.src)">
-<h3>Nature Painting</h3>
-<h2> size "15"*"22"</h2>
+<h3>Nature Art 8</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Nature Art 8','₹4500')">Buy Now</button>
+<p class="desc">Creative Madhubani depiction of nature.</p>
 </div>
 
 <div class="painting">
 <img src="image/mithila25.jpeg" onclick="openImage(this.src)">
-<h3>Nature Painting</h3>
-<h2> size "15"*"22"</h2>
+<h3>Nature Art 9</h3>
+<p class="size">Size: 15 x 22 inch</p>
 <p class="price">₹4,500</p>
-<button class="buy-btn" onclick="openForm('SITA RAM','₹4500')">Buy Now</button>
-<p>Nature themed Madhubani artwork.</p>
+<button onclick="openForm('Nature Art 9','₹4500')">Buy Now</button>
+<p class="desc">Detailed artwork inspired by natural elements.</p>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
 </section>
+
 
 
 <div id="imagePopup" onclick="closeImage()">
