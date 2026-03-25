@@ -43,7 +43,7 @@ let address=document.getElementById("custAddress").value;
 let painting=document.getElementById("paintingName").value;
 let price=document.getElementById("paintingPrice").value;
 
-let ownerNumber="919931987719";
+let ownerNumber="916200056629";
 
 let message=`🛒 Order Details
 
